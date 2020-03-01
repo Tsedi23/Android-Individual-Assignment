@@ -53,10 +53,7 @@ public class Login extends AppCompatActivity {
                     return;
                 }
 
-                if(password.length() < 6){
-                    mPassword.setError("Password Must be >= 6 Characters");
-                    return;
-                }
+
 
 
 
